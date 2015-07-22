@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+This tells git I would like to track and commit the files of a folder as a new project.
