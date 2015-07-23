@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
-This tells git I would like to track and commit the files of a folder as a new project.
+- This tells git I would like to track and commit the files of a folder as a new project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- It's a virtual space that represent neither the working directory neither the repository, it helps focusing on what is currently edited and the related tasks.
+
+How can you use the staging area to make sure you have one commit per logical change?
+- By only adding the file modified for a common logical change
