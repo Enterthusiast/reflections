@@ -6,3 +6,8 @@ Why might you want to always pull changes manually rather than having Git automa
 - Or I don't want to deal with potential new bugs coming from the remote
 - I'd rather have my feature working before pulling changes
 - If it ain't pbroken don't update it? ^^
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+- A Fork is like a clone but on github, it does also give credit to the "cloned" remote author, and allow to send the author "suggestion" commit.
+- A clone is a duplicate of a git repository in its actual state, there is no link between a clone and the cloned repository.
+- A branch is part of a repository, remote or clone, and is where modification are commited. Multiple branches allows for flexibility (and cooperation) when working on new features, keeping the master branch up and running.
